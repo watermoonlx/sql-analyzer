@@ -9,6 +9,7 @@
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 </div>
+
 ---
 
 - [What is sql-analyzer?](#what-is-sql-analyzer-)
