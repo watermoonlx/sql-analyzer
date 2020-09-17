@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 
 public class JoinRelationshipDiagramGeneratorTest {
-    
+
     @Test
     public void testGenerate() throws IOException {
         String ddlSql = Utils.readDdlSql();
@@ -18,6 +18,4 @@ public class JoinRelationshipDiagramGeneratorTest {
 
         new JoinRelationshipDiagramGenerator().generate(result, "temp/完整示例.png");
     }
-
-
 }
